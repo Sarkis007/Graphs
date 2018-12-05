@@ -74,9 +74,11 @@ def addpeople():
         y = raw_input("Do you want to add other people ?")
         if y == "no":
             g.print_graph()
+            print "You see it WORKS :D"
             exit()
         else:
             pass
+
 
 
 
